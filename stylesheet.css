@@ -44,11 +44,11 @@ transform: scale(1.90);
 }
 
 /* img my styles */
-.center {
-  margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .img_ban {
