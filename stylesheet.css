@@ -44,6 +44,13 @@ transform: scale(1.90);
 }
 
 /* img my styles */
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
 .img_ban {
   width: 100%;
 }
