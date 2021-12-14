@@ -1,0 +1,184 @@
+
+/* Text tags */
+h1, h5, h2, th, td {  
+  text-align: center;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+p, a {
+    text-align: center;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: large;
+  }
+
+.a{
+  text-align: center;
+}
+
+  .p {
+    text-align: left;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+  }
+
+  /* body colour */
+body{
+  background: rgb(0, 0, 0);
+}
+
+/* images hover not my code */
+.img:hover{
+  color: #424242; 
+-webkit-transition: all .3s ease-in;
+-moz-transition: all .3s ease-in;
+-ms-transition: all .3s ease-in;
+-o-transition: all .3s ease-in;
+transition: all .3s ease-in;
+opacity: 1;
+transform: scale(1.90);
+-ms-transform: scale(1.90); /* IE 9 */
+-webkit-transform: scale(1.90); /* Safari and Chrome */
+}
+
+/* img my styles */
+.img_ban {
+  width: 100%;
+}
+
+.img_blen {
+  width: 100%;
+}
+
+.game_img{
+  width: 75%;
+}
+
+.logo_img {
+  width: 10%;
+}
+
+/* nav bar */
+ul {
+  display: flex;  
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #636262;
+  }
+
+
+/* this section is to set the grid for the divs. wont let me have bootstrap..... ill do it the hard way */
+/* ####################################################################################################### */
+/* CONTAINER */
+/* .container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+} */
+
+/* ########################################################################################################### */
+/* ROW */
+/* .row {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-gap: 20px;
+}
+
+/* Collum size settings */
+
+/* 
+@media (min-width: 1200px) {
+  .col-lg-12 {
+    grid-column: span 12
+  }
+
+  .col-lg-11 {
+    grid-column: span 11;
+  }
+
+  .col-lg-10 {
+    grid-column: span 10
+  }
+
+  .col-lg-9 {
+    grid-column: span 9
+  }
+
+  .col-lg-8 {
+    grid-column: span 8
+  }
+
+  .col-lg-7 {
+    grid-column: span 7
+  }
+
+  .col-lg-6 {
+    grid-column: span 6
+  }
+
+  .col-lg-5 {
+    grid-column: span 5
+  }
+
+  .col-lg-4 {
+    grid-column: span 4
+  }
+
+  .col-lg-3 {
+    grid-column: span 3
+  }
+
+  .col-lg-2 {
+    grid-column: span 2
+  }
+
+  .col-lg-1 {
+    grid-column: span 1
+  }
+} */
+
+ 
+
